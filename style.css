@@ -12,6 +12,8 @@ header {
   -o-background-size: cover;
   background-size: cover;
   font-family: "Dosis", sans-serif;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
 }
 .header_menu {
   width: 100%;
