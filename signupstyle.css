@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("assets/login/bg.jpg");
+  background-size: cover;
+  font-family: "Dosis", sans-serif;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+}
+.loginBox {
+  width: 320px;
+  height: 650px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 20px;
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  animation: fadeIn ease 1s, popup 0.7s;
+}
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 1.875em;
+  font-weight: bold;
+  animation: fadeIn ease 1s, popup 0.7s;
+}
+
+.loginBox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  animation: fadeIn ease 1s, popup 0.7s;
+}
+
+.loginBox input {
+  width: 100%;
+  margin-bottom: 5%;
+  animation: fadeIn ease 1s, popup 0.7s;
+}
+
+.loginBox input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  font-size: 1em;
+  
+}
+
+.loginBox input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #029aeb;
+  font-size: 1.125em;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.loginBox input[type="submit"]:hover {
+  background: #007fff;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes popup {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.35);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
