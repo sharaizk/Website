@@ -26,7 +26,10 @@
 }
 
 .date-picker .dates.active{
-    display: block
+    display: block;
+    position: absolute;
+    background-color: #a3d2ff;
+    width: 100%;
 }
 
 .date-picker .dates .month{

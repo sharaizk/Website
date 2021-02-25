@@ -5,18 +5,15 @@
 header {
   width: 100%;
   height: 100vh;
-  background: url("assets/login/bg.jpg")no-repeat center center fixed;;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-image: url("assets/login/bg.jpg");
   background-size: cover;
   font-family: "Dosis", sans-serif;
   animation: fadeIn ease 1s;
   -webkit-animation: fadeIn ease 1s;
 }
 .loginBox {
-  width: 320px;
-  height: 520px;
+  width: 33vh;
+  height: auto;
   background-color: white;
   position: absolute;
   top: 50%;
@@ -28,19 +25,19 @@ header {
 }
 
 .avatar {
-  height: 100px;
-  width: 100px;
+  height: 11vh;
+  width: 11vh;
   border-radius: 50%;
   position: absolute;
-  top: -50px;
-  left: calc(50% - 50px);
+  top: -5.268703898840885vh;
+  left: calc(50% - 5.268703898840885vh);
   animation: fadeIn ease 1s, popup 0.7s;
 }
 h1 {
   margin: 0;
   padding: 0 0 20px;
   text-align: center;
-  font-size: 30px;
+  font-size: 1.875em;
   font-weight: bold;
   animation: fadeIn ease 1s, popup 0.7s;
 }
@@ -64,32 +61,32 @@ input[type="password"] {
   border-bottom: 1px solid black;
   background: transparent;
   outline: none;
-  height: 40px;
-  font-size: 16px;
+  height: 4.214963119072708vh;
+  font-size: 1em;
   
 }
 
-.loginBox input[type="submit"] {
+.loginBox input[type="button"] {
   border: none;
   outline: none;
-  height: 40px;
+  height: 4.214963119072708vh;
   background: #029aeb;
-  font-size: 18px;
+  font-size: 1.125em;
   border-radius: 20px;
   cursor: pointer;
 }
-.loginBox input[type="submit"]:hover {
+.loginBox input[type="button"]:hover {
   background: #007fff;
 }
 .loginBox a {
   text-decoration: none;
-  font-size: 12px;
+  font-size: 0.750em;
   line-height: 20px;
   color: darkgray;
   animation: fadeIn ease 1s,popup 0.7s;
 }
 .loginBox a:hover {
-  font-size: 16px;
+  font-size: 1em;
   color: black;
 }
 

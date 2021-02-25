@@ -12,12 +12,14 @@ header {
   -o-background-size: cover;
   background-size: cover;
   font-family: "Dosis", sans-serif;
-  animation: fadeIn ease 1s;
-  -webkit-animation: fadeIn ease 1s;
+}
+
+.navbar {
+  z-index: 1000;
 }
 .header_menu {
   width: 100%;
-  height: 100px;
+  height: 10.53740779768177vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -79,7 +81,7 @@ header {
 }
 
 .menu_list li {
-  letter-spacing: 2px;
+  letter-spacing: 0.2107481559536354vh;
   color: rgba(255, 255, 255, 0.8);
   cursor: default;
   animation: fadeIn ease 3s;
@@ -98,7 +100,7 @@ header {
   text-transform: uppercase;
   color: white;
   width: 100%;
-  height: 200px;
+  height: 21.07481559536354vh;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -108,7 +110,7 @@ header {
 
 .header_content h2 {
   margin-bottom: 50px;
-  font-size: 17px;
+  font-size: 1.791359325605901vh;
   font-weight: 500;
   letter-spacing: 0.3em;
   animation: fadeIn ease 5s;
@@ -173,7 +175,6 @@ header {
   animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 5s;
 }
-
 .header_content button {
   height: auto;
   padding: 8px 37px;
