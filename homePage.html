@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="homeStyle.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
       rel="stylesheet"
@@ -34,7 +34,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <div class="container">
           <div class="logo">
             <img src="assets/index/TEES.png" alt="logo" />
@@ -49,35 +49,46 @@
           <div class="collapse navbar-collapse menu_list" id="navbarid">
             <ul class="navbar-nav text-center ms-auto">
               <li class="nav-item">
-                <a href="homePage.html" class="nav-link">Home</a>
+                <ssa href="login.html" class="nav-link">Home</ssa>
               </li>
               <li class="nav-item">
                 <a href="login.html" class="nav-link">Portfolio</a>
               </li>
-              <li class="nav-item">
-                <a href="login.html" class="nav-link">Network</a>
-              </li>
-              <li class="nav-item">
-                <a href="login.html" class="nav-link">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a href="login.html" class="nav-link">Log In</a>
+
               </li>
             </ul>
+              <form class="form-inline d-flex">
+                <input
+                  class="form-control mr-sm-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button
+                  class="btn btn-outline-success my-2 my-sm-0"
+                  type="submit"
+                >
+                  Search
+                </button>
+              </form>
           </div>
         </div>
       </nav>
-
-      <div class="header_content">
-        <h2>Mobile App Developer / Ui/Ux Designer / Web Developer</h2>
-        <h1 class="neon-text">SHARAIZ KHAN</h1>
-        <button>
-          <a href="https://www.youtube.com" target="_blank">Vlog</a>
-        </button>
-        <button>
-          <a href="https://www.youtube.com" target="_blank">Blog</a>
-        </button>
+      <div id="bg_svg">
+        <svg
+          width="122"
+          height="698"
+          viewBox="0 0 122 698"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 698V0C31.3333 80.1667 98.9 260.2 118.5 339C138.1 417.8 47.6667 611.167 0 698Z"
+            fill="#1097F3"
+          />
+        </svg>
       </div>
+      <div class="header_content"></div>
     </header>
   </body>
 </html>
